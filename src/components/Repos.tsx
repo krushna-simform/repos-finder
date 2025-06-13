@@ -135,7 +135,7 @@ export const Repos = () => {
       </div>
 
       {filteredRepos.length > 0 ? (
-        <div className="space-y-4 py-5 px-1">
+        <div className="space-y-4 pb-5 px-1">
           {filteredRepos.map((repo) => (
             <RepoCard key={repo.id} repo={repo} />
           ))}
