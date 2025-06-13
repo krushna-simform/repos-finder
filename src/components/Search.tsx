@@ -83,7 +83,7 @@ export const Search = () => {
         </Button>
 
         {storedUsers.length > 0 && (
-          <DropdownMenu>
+          <DropdownMenu modal={false}>
             <DropdownMenuTrigger asChild>
               <Button
                 variant="outline"
