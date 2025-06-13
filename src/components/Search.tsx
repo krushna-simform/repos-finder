@@ -60,7 +60,7 @@ export const Search = () => {
   const storedUsers = getData()?.users || [];
 
   return (
-    <div className="space-y-3">
+    <div className="space-y-3 py-1 sticky top-15 bg-white dark:bg-black">
       <div className="flex gap-2 items-center">
         <div className="relative flex-1">
           <Input
@@ -70,7 +70,7 @@ export const Search = () => {
             onChange={(e) => setInput(e.target.value)}
             className="h-10 pl-9 pr-4"
           />
-          <SearchIcon className="absolute left-3 top-3.5 h-4 w-4 text-gray-400" />
+          <SearchIcon className="absolute left-3 top-3 h-4 w-4 text-gray-400" />
         </div>
 
         <Button
@@ -122,7 +122,7 @@ export const Search = () => {
           onChange={(e) => setSearchTerm(e.target.value)}
           className="h-10 pl-9"
         />
-        <SearchIcon className="absolute left-3 top-3.5 h-4 w-4 text-gray-400" />
+        <SearchIcon className="absolute left-3 top-3 h-4 w-4 text-gray-400" />
       </div>
     </div>
   );
