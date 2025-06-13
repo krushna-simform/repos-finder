@@ -106,7 +106,7 @@ export const Repos = () => {
           })}
         </div>
 
-        <div className="flex justify-end">
+        <div className="flex justify-end mt-3">
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
               <Button
