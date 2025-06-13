@@ -86,7 +86,7 @@ export const Repos = () => {
                   setSelectedUser((prev) => (prev === user ? null : user))
                 }
               >
-                <span className="mr-1 font-medium">{user}</span>
+                <span className="mr-1 font-medium select-none">{user}</span>
                 <span className="text-xs text-gray-500 dark:text-gray-400">
                   ({userRepoCount})
                 </span>
